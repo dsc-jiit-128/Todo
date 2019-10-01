@@ -1,0 +1,36 @@
+#myform > input[type="text"] {
+    width:100%;
+    min-height: 40px;
+    font-size: 18px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+#myform > input[type="submit"] {
+    border:0;
+    padding:10px 20px;
+    font-size: 16px;
+}
+#myform {
+    margin-bottom: 20px;
+}
+.todo {
+    margin-top:20px;
+    background-color: #f3fcf8;
+    padding:8px;
+}
+.trash {
+    float: right;
+    color: grey;
+    opacity: 0.6;
+    cursor: pointer;
+}
+.trash:hover {
+    color:red;
+}
+.todo-wrapper {
+    margin-top: 40px;
+}
+input[type="radio"] {
+    transform: scale(1.4);
+    color: #f3fcf8;
+}
